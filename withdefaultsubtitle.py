@@ -9,7 +9,7 @@ def generate_subtitle_file(subtitle_file):
         print(f"Generating subtitle file {subtitle_file}...")
         with open(subtitle_file, "w") as f:
             f.write("""[Script Info]
-Title: Default Google file
+Title: Default Foogle file
 ScriptType: v4.00+
 WrapStyle: 0
 ScaledBorderAndShadow: yes
@@ -21,7 +21,7 @@ Style: Default,Arial Black,20,&H00FFFFFF,&H000000FF,&H00000000,&H00000000,-1,-1,
 
 [Events]
 Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
-Dialogue: 0,0:00:00.00,0:00:25.00,Default,,0,0,0,,{\b1\c&H16EB22&}Downloaded From {\c&HFFAB00&}Google.com{\b0}""")
+Dialogue: 0,0:00:00.00,0:00:25.00,Default,,0,0,0,,{\b1\c&He6e15c&}Downloaded {\c&Hffffff&}from {\c&H5757ff&}Foogle.com{\b0}""")
         print(f"Subtitle file {subtitle_file} created successfully.")
         return True
     except Exception as e:
